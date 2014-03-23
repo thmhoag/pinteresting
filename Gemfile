@@ -27,6 +27,9 @@ gem 'jbuilder', '~> 1.2'
 # Boostrap Gem for front end Graphics/Prettystuff
 gem 'bootstrap-sass'
 
+# Devise Gem for User logon/authentication
+gem 'devise'
+
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
