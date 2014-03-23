@@ -5,3 +5,11 @@ $brand-primary: 							#2980b9;
 $jumbotron-bg: 								#ecf0f1;
 
 @import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
