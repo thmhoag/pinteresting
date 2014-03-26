@@ -33,8 +33,8 @@ gem 'devise'
 # Gem for attaching images
 gem 'paperclip'
 
-# Gem for images on Heroku (using Amazon Cloud Services)
-gem 'aws-sdk'
+# Gem for images on Heroku (using Dropbox)
+gem "paperclip-dropbox"
 
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
