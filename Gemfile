@@ -30,6 +30,9 @@ gem 'bootstrap-sass'
 # Devise Gem for User logon/authentication
 gem 'devise'
 
+# Gem for attaching images
+gem 'paperclip'
+
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
