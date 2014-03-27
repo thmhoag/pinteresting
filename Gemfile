@@ -42,6 +42,12 @@ gem 'masonry-rails', '~> 0.2.1'
 # Gem for Turbolinks for Masonry
 gem 'jquery-turbolinks'
 
+# Gem for paging stuff/things
+gem 'will_paginate', '~> 3.0'
+
+# Gem paginate for bootstrap
+gem 'will_paginate-bootstrap'
+
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
