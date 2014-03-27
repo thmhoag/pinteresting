@@ -34,7 +34,13 @@ gem 'devise'
 gem 'paperclip'
 
 # Gem for images on Heroku (using Dropbox)
-gem "paperclip-dropbox"
+gem 'paperclip-dropbox'
+
+# Gem for jquery masonry for dynamic library type view
+gem 'masonry-rails', '~> 0.2.1'
+
+# Gem for Turbolinks for Masonry
+gem 'jquery-turbolinks'
 
 group :development, :test do
 	# Use sqlite3 as the database for Active Record
