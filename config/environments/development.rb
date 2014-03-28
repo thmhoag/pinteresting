@@ -29,4 +29,6 @@ Pinteresting::Application.configure do
 
   # Required for Devise
   config.action_mailer.default_url_options = { host: 'localhost:3000' }
+
+  config.autoload_paths += %W(#{config.root})
 end
